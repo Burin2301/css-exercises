@@ -3,8 +3,25 @@
 body {
   height: 100vh;
   margin: 0;
+  padding: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+a{
+  text-decoration: none;
+  color: rgb(44, 41, 41);
+}
+
+ul{
+  display: flex;
+  min-width: 0;
+}
+
+li{
+  list-style: none;
+  padding: 8px;
 }
 
 img {
@@ -24,4 +41,29 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.right-links{margin-right: 30px;}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+button{
+  padding: 10px;
+}
+
+.footer{
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  
 }
